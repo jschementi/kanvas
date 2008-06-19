@@ -1,1 +1,28 @@
-test file
+Kanvas: Makes Silverlight and HTML 5 Canvas play nice together
+http://github.com/jflam/kanvas
+
+Getting Started
+
+1. Install Silverlight 2
+
+   Windows/Mac: http://www.microsoft.com/silverlight/resources/install.aspx?v=2.0
+
+   Run this executable, and restart any browsers you have open.
+
+2. Download Silverlight Dynamic Languages SDK
+
+   http://www.codeplex.com/sdlsdk/Release/ProjectReleases.aspx?ReleaseId=14254
+
+   Scroll down, and select the "Dynamic Languages SDK". Extract sdk-sdk.zip
+   into a folder named sdl-sdk at the same level as the kanvas folder.
+
+3. Run at a command prompt:
+
+   >>> sdl-sdk/script/server /b:kanvas/index.html
+
+   This will open your default browser to the kanvas demo page.
+
+4. Run some code:
+
+   Take a look at Code.rb and drawing.rb; copy some of those method bodies, paste
+   into the HTML page's textarea, click run, and see the canvas code in action!
