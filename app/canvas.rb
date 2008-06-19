@@ -1,4 +1,4 @@
-require 'System.Net'
+System::Windows::Application.current.environment.host.platform_adaptation_layer.load_assembly('System.Net')
 
 include System
 include System::Net
